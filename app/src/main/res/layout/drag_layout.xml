@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:monkey="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#73a39c"
+    android:clipChildren="false">
+
+    <example.com.myanim.drag.DragBubbleView
+        android:id="@+id/dragBubbleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        monkey:bubbleColor="#ff0000"
+        monkey:bubbleRadius="16dp"
+        monkey:textColor="#ffffff"
+        monkey:textSize="16sp" />
+
+    <Button
+        android:id="@+id/reCreateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="64dp"
+        android:text="reCreate" />
+</RelativeLayout>

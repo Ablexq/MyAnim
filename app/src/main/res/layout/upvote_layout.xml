@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <example.com.myanim.upvote.PeriscopeLayout
+        android:id="@+id/periscope"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#d2d2c9"
+        android:text="Hello World!" />
+</LinearLayout>
