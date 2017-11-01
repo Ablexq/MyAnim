@@ -8,7 +8,7 @@ import android.widget.Button;
 
 import example.com.myanim.R;
 
-
+//来源：http://blog.csdn.net/qq_31715429/article/details/54386934
 public class DragActivity extends AppCompatActivity implements View.OnClickListener, DragBubbleView.OnBubbleStateListener {
 
     private DragBubbleView mDragBubbleView;
